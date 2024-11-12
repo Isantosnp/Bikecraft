@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f5ebeb;
+  font-size:15px;
+}
+
+header h1{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  padding: 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding : 0px;
+}
+
+.container .item-cabecalho{
+  font-family:'Roboto', sans-serif;
+  text-decoration: none;
+  background-color: #fff5f5;
+  color: black;
+  padding: 13px  40px;
+  border-radius: 3px;
+}
+
+/* Display Grid */
+.secao-sobre{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: white;
+}
+.secao-sobre .item-grid{
+  padding: 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.secao-sobre .item-grid p {
+  grid-column: 1 / -1;
+}
+
+
+
+
+
+
